@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,700;1,400;1,700&display=swap');
+
+.homePage {
+    .homeTitle {
+        p {
+
+            font-family: 'Source Sans 3', sans-serif;
+            text-transform: uppercase;
+        }
+    }
+
+    .homeSubTitle {
+
+        p {
+
+            font-family: 'B612', sans-serif;
+            font-style: italic;
+            font-weight: 700;
+        }
+    }
+
+    .btnBorder {
+        transition: .2s;
+    }
+
+    .btnBorder:hover .iconBtnBorder {
+        transform: translateX(3px);
+        transition: .2s;
+    }
+
+}
