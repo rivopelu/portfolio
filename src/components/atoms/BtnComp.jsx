@@ -1,8 +1,8 @@
 import React from 'react'
-
-const BtnComp = () => {
+import './style/btn.scss'
+const BtnComp = ({ children, onClick, className }) => {
     return (
-        <div>BtnComp</div>
+        <button onClick={onClick} className={`px-6 py-1 btnMain bg-blue-700 text-white hover:bg-blue-900 duration-200 active:bg-blue-400 ${className}`}>{children}</button>
     )
 }
 

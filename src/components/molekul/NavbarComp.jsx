@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { BrandLogo, BtnComp } from '../atoms'
+import { BrandLogo, } from '../atoms'
 // import ProfileMenu from './ProfileMenu'
 import './style/Navbar.scss'
 

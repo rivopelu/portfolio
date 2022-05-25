@@ -12,6 +12,7 @@ import wa from './img/wa.png'
 import rivo from './img/rivo.png'
 import { AboutSection, Container } from '../../components'
 import SkillsSection from './SkillsSection'
+import { Link } from 'react-router-dom'
 
 const HomePage = () => {
 
@@ -45,10 +46,12 @@ const HomePage = () => {
                         </p>
 
                         <div className="btnGroup flex pt-5 gap-2">
-                            <button className='btnBorder border-2 duration-200 text-white px-4 py-1'>About Me
-                                <FontAwesomeIcon className='iconBtnBorder pl-2' icon={faArrowRight} />
+                            <a href='#aboutSection'>
+                                <button className='btnBorder border-2 duration-200 text-white px-4 py-1'>About Me
+                                    <FontAwesomeIcon className='iconBtnBorder pl-2' icon={faArrowRight} />
 
-                            </button>
+                                </button>
+                            </a>
                             <button className='btnBorder border-2 duration-200 text-white px-4 py-1'>My Project
                                 <FontAwesomeIcon className='iconBtnBorder pl-2' icon={faArrowRight} />
 
