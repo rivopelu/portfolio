@@ -13,6 +13,7 @@
     }
 
 
+
     // MOBILE VIEW
 
 
@@ -33,8 +34,9 @@
             top: 0;
             left: 0;
             height: 100vh;
-            background: #232b74;
+            /* Add the blur effect */
 
+            backdrop-filter: blur(30px);
             width: 100vw;
             // z-index: -1;
             transform: translateX(-100vw);
@@ -124,6 +126,22 @@
 
     #navMenu.active>span:nth-child(3) {
         transform: translateY(-9px) rotate(90deg);
+    }
+
+    .navlist .active {
+        color: #1437ff;
+        border-bottom: 1px solid;
+    }
+}
+
+
+.colorNavbar {
+    #navMenu>span {
+        display: block;
+        width: 28px;
+        height: 2px;
+        border-radius: 9999px;
+        background: linear-gradient(92.74deg, #ffffff 4.23%, #b5bafa 96.01%);
     }
 
     .navlist .active {

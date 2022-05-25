@@ -9,8 +9,6 @@ const NavbarComp = () => {
     const [color, setColor] = useState(false)
 
 
-    const token = localStorage.getItem('token')
-    console.log(token)
 
 
 
@@ -37,7 +35,7 @@ const NavbarComp = () => {
 
     ]
     return (
-        <div className={`fixed  z-40 navbarComp py-3 w-full flex items-center justify-center   ${color ? 'bg-white border-b' : 'bg-transparent text-white'} bg-white`}>
+        <div className={`fixed  z-40 navbarComp py-3 w-full flex items-center justify-center   ${color ? 'bg-white border-b' : 'bg-transparent text-white colorNavbar'} bg-white`}>
             <div className="containerMain  flex justify-between  ">
 
                 <Link to='/' className="brand lg:text-2xl ">

@@ -29,4 +29,18 @@
         transition: .2s;
     }
 
+
+}
+
+#skillSection {
+
+    .cardSkils {
+        overflow: hidden;
+
+    }
+
+    .cardSkils:hover img {
+
+        transform: scale(105%);
+    }
 }
