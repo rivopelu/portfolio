@@ -1,5 +1,5 @@
 import React from 'react'
-import { CardComp, TitleComp } from '../../components'
+import { CardComp, GarisComp, TitleComp } from '../../components'
 import htmlImg from './img/skills/html.png'
 import nodeImg from './img/skills/node.png'
 import figmaImg from './img/skills/figma.png'
@@ -45,7 +45,7 @@ const SkillsSection = () => {
 
                 </div>
             </div>
-
+            <GarisComp className='mt-4' />
         </div>
     )
 }

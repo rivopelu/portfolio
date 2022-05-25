@@ -13,6 +13,7 @@ import rivo from './img/rivo.png'
 import { AboutSection, Container } from '../../components'
 import SkillsSection from './SkillsSection'
 import { Link } from 'react-router-dom'
+import RecentProject1 from './RecentProject1'
 
 const HomePage = () => {
 
@@ -32,7 +33,7 @@ const HomePage = () => {
                 <div className="kiri pt-12 bg-blue-600 left-0 lg:w-[60%] w-full absolute h-full z-[-10]"></div>
                 <div className="flex flex-col items-center justify-center lg:h-screen lg:pb-12 px-[20px]">
 
-                    <div className="containerMain pt-12 relative ">
+                    <div className="containerMain pt-12 lg:pt-0 relative ">
                         <div className="homeTitle text-4xl font-bold pt-10 lg:text-6xl text-white border-b pb-2 border-gray-400 lg:w-[30%]">
                             <p>Praysingzky </p>
                             <p>R. Rivo Pelu</p>
@@ -98,6 +99,7 @@ const HomePage = () => {
 
                 <AboutSection />
                 <SkillsSection />
+                <RecentProject1 />
             </Container>
 
         </>
