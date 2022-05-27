@@ -4,7 +4,7 @@ import BtnComp from './BtnComp'
 const DevelopMode = () => {
     const [active, setActive] = useState(true)
     return (
-        <div className={` h-screen w-screen z-[1000] backdrop-blur-xl flex items-center justify-center ${active ? 'fixed' : 'hidden'}`}>\
+        <div className={` h-screen w-screen z-[1000] backdrop-blur-xl flex items-center justify-center ${active ? 'fixed' : 'hidden'}`}>
             <div className='text-center p-4'>
 
                 <p className='text-white uppercase font-bold tracking-wide text-2xl lg:text-4xl'>In development stage</p>
