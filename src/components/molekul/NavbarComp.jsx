@@ -31,7 +31,7 @@ const NavbarComp = () => {
 
     const NavbarLink = [
         { id: 1, title: 'Home', link: '/' },
-        { id: 2, title: 'Layanan', link: '/layanan' },
+        { id: 2, title: 'Project', link: '/project' },
 
     ]
     return (

@@ -1,4 +1,5 @@
 import NavbarComp from './NavbarComp'
 import Container from './Container'
 import AboutSection from './AboutSection'
-export { NavbarComp, AboutSection, Container }
+import FooterComp from './FooterComp'
+export { NavbarComp, FooterComp, AboutSection, Container }
