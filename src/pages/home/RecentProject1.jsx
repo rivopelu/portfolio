@@ -4,6 +4,7 @@ import ipadBooking from './img/project/ipadBooking.png'
 import imacBooking from './img/project/imacBooking.png'
 import CoverHomePng from './img/project/coverHome.png'
 import chatAppImg from './img/project/chatApp.png'
+import coverAir from './img/project/CoverAir.png'
 const RecentProject1 = () => {
     return (
 
@@ -29,6 +30,21 @@ const RecentProject1 = () => {
 
                 <img src={imacBooking} className='lg:w-[60%] lg:pt-16 lg:mx-auto' alt="rivo booking app" />
 
+                <GarisComp className='mt-4' />
+                <div className="row  w-full pt-10  mb-7">
+                    <dir className='flex  items-center mb-5 w-full justify-between'>
+
+                        <div className="titileProject flex text-lg items-center gap-2  font-bold lg:text-4xl text-blue-800 fle">
+                            <div className='w-6 h-6 bg-blue-800 rounded-full'></div>
+                            <p>Travira Web Front end</p>
+                        </div>
+                        <LinkComp title="Read More" link={'https://github.com/rivopelu/travira-air-web'} />
+                    </dir>
+
+                    <p className='lg:text-2xl'>this is a static website built with react-js, tailwindCss, I'm trying to make a web design from a ui designed and poster  by Hazar from codelillah as a UI/UX designer</p>
+                </div>
+
+                <img src={coverAir} className='lg:w-[70%] rounded-2xl outline outline-4 outline-gray-500 lg:mt-16 lg:mx-auto' alt="rivo booking app" />
                 <GarisComp className='mt-4' />
                 <div className="row  w-full pt-10  mb-7">
                     <dir className='flex  items-center mb-5 w-full justify-between'>
