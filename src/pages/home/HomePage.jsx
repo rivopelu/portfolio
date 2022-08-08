@@ -22,7 +22,7 @@ const HomePage = () => {
         { link: 'https://www.linkedin.com/in/praysingzky-richardo-rivo-pelu-061146234/', icon: Linkedin },
         { link: 'https://www.instagram.com/prysngrchrd_/', icon: ig },
         { link: 'https://www.facebook.com/rivo.pelu/', icon: fb },
-        { link: '#', icon: wa },
+        { link: 'https://wa.me/6285394146901', icon: wa },
     ]
 
 
@@ -74,10 +74,14 @@ const HomePage = () => {
                 <div className="bawah bg-blue-800 w-full bottom-0 lg:absolute flex items-center justify-center lg:py-4 ">
                     <div className="containerMain flex flex-col lg:flex-row gap-6 lg:gap-0 py-3 lg:justify-between">
                         <div className="item flex items-center gap-4 ">
+                            <div className={'w-16'}>
+
                             <FontAwesomeIcon icon={faMapPin} className='text-blue-100 h-9' />
-                            <p className='text-blue-50'>Kakenturan satu, maesa, bitung city, north sulawesi, indonesia</p>
+                            </div>
+                            <p className='text-blue-50'>Kakenturan Satu, Maesa, Bitung City, North Sulawesi, Indonesia</p>
                         </div>
                         <div className="item flex items-center gap-4 ">
+
                             <FontAwesomeIcon icon={faEnvelope} className='text-blue-100 h-9' />
                             <p className='text-blue-50'>
                                 <div>Mail me</div>
