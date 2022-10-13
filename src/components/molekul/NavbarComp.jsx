@@ -8,16 +8,22 @@ import './style/Navbar.scss'
 const NavbarComp = () => {
     const [color, setColor] = useState(false)
 
+    const url = window.location.href
+
+
 
 
 
 
 
     const changeColor = () => {
-        if (window.scrollY >= 90) {
-            setColor(true)
-        } else {
-            setColor(false)
+        if (url === "http://localhost:3000/") {
+
+            if (window.scrollY >= 90) {
+                setColor(true)
+            } else {
+                setColor(false)
+            }
         }
     }
 
@@ -51,7 +57,7 @@ const NavbarComp = () => {
                         {
                             NavbarLink.map((item) => (
 
-                                <li key={item.id}><NavLink activeClassName='active ' className='lg:hover:text-main-orange duration-200' to={item.link}>{item.title}</NavLink></li>
+                                <li key={item.id}><NavLink activeclassname='active ' className='lg:hover:text-main-orange duration-200' to={item.link}>{item.title}</NavLink></li>
                             ))
                         }
                     </ul>
